@@ -1,3 +1,3 @@
 git submodule update --init
-npm install
-npm start
+bash nodeUpdater.sh
+bash startrun.sh

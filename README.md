@@ -1,16 +1,23 @@
-<h1 align="center">General Mathematics MOD</h1>
+<h1 align="center">General Maths MOD</h1>
  
 <p align="center">
   <img alt="Status Badge" src="https://img.shields.io/badge/Status-On-brightgreen?style=plastic">
-  <img alt="Status Badge" src="https://img.shields.io/badge/Replit%20Deploy%20Status-Working-blue?style=plastic">
-  <img alt="Status Badge" src="https://img.shields.io/badge/Render%20Deploy%20Status-Working-black?style=plastic">
+  <img alt="Status Badge" src="https://img.shields.io/badge/Replit%20Deploy%20Status-Working-orange?style=plastic">
+  <img alt="Status Badge" src="https://img.shields.io/badge/Render%20Deploy%20Status-With Errors and Removing it very Soon-red?style=plastic">
 </p>
 <p align="center">
-  <img alt="Language badge" src="https://img.shields.io/badge/Language-Node.js-green?style=plastic">
+  <img alt="Language badge" src="https://img.shields.io/badge/Language-Node.js-yellow?style=plastic">
+  <img alt="Status Badge" src="https://img.shields.io/badge/Type-Static%20Site-blue?style=plastic">
+</p>
+<p align="center">
+  
 </p>
  
+# IMPORTANT NOTE!
+### Render deployed instances (GeneralMathsMOD links hosted on render)are going to be removed very soon due to my economical situation and will never be used again! I am currently testing netlify looking for support. Use, till I put as the main link a non hosted on render link, use this one [gmaths tmp](https://gmaths-tmp.moddedstuffguy.repl.co/)
+ 
 ## CURRENT VERSION
-Version **7.0** (see **CHANGELOG** for *more information*)
+Version **7.1b** (see **CHANGELOG** for *more information*)
 
 ## CHANGELOG
 [GeneralMathsMOD CHANGELOG](CHANGELOG.md)
@@ -38,21 +45,11 @@ Version **7.0** (see **CHANGELOG** for *more information*)
 - [CAPTCHA/hCAPTCHA](https://www.captcha.net)
 - [Spotify](https://spotify.com)
 - [Discord](https://discord.com)
-- [Instagram](https://instagram.com/) (Partially Supported)
+- [Instagram](https://instagram.com/)
 - [Reddit](https://reddit.com)
 - [GeForce NOW](https://play.geforcenow.com/) (Partially Supported)
 - [Github](https://github.com/)
 - Any static website
-- And more❕
-
-## Supported Websites in Womginx
-- [CAPTCHA](https://captcha.net) and [hCAPTCHA](https://hcaptcha.net)
-- [Spotify](https://open.spotify.com/) (Partially Supported)
-- [Discord](https://discord.com/) (Partially Supported)
-- [Instagram](https://instagram.com)
-- [Reddit](https://reddit.com)
-- [Futbin](https://futbin.com)
-- [Replit](https://replit.com/)
 - And more❕
 
 # Deploying and Setting up your own General Mathematics MOD
@@ -61,6 +58,7 @@ Version **7.0** (see **CHANGELOG** for *more information*)
 
 [![Run on Replit](https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg)](https://replit.com/github/moddedstuffguy/GeneralMathsMOD)
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/moddedstuffguy/GeneralMathsMOD)
+[![Deploy to Netlify](https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/moddedstuffguy/GeneralMathsMOD)
 
 ## Basic Guide
 
@@ -77,12 +75,12 @@ Click the ***Run on Replit*** button and ***CHOOSE*** Node.JS as the language.
 To setup on Replit, first click on the ***"Run on Replit"*** button. After loading into your repl, run the following commands:
 ```sh
 $ npm i
-$ chmod +x main.sh
-$ ./main.sh
+$ chmod +x replit.sh
+$ ./replit.sh
 ```
 OR
 ```
-$ bash main.sh
+$ bash replit.sh
 ```
 **NOTE:** On Repl, The command `git submodule update --init` has to be executed (but don't worry about this because the command is automatically executed when running the `main.sh` script)
 
@@ -152,6 +150,7 @@ uv - Contains all files for Ultraviolet Backend Script
 - [x] Fix Node Unblocker
 - [x] Create scripts for Womginx and Nodeunb for using proxy with iframe method
 - [ ] Add another proxy
+- [ ] ***Remove** Deployed render instances (Links hosted on render)*
 
 ## Credits
 
